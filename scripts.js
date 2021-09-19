@@ -19,7 +19,7 @@ realValueText.innerHTML = new Intl.NumberFormat('pt-BR',
 { style: 'currency', currency: 'BRL' }
 ).format(inputreais)
 
-if (select.value === "U$: Dólar aericano") {
+if (select.value === "U$: Dólar americano") {
 dolarValueText.innerHTML = new Intl.NumberFormat('en-US',
 { style: 'currency', currency: 'USD' }
 ).format(inputreais / dolar)
@@ -40,7 +40,7 @@ changeCurrency = () => {
 const currencyName = document.getElementById("currency-name")
 const currencyImg = document.getElementById('currency-img')
 
-if (select.value === 'U$: Dólar aericano') {
+if (select.value === 'U$: Dólar americano') {
 currencyName.innerHTML = "Dolar americano"
 currencyImg.src = "./assets/estados-unidos (1) 1.svg"
 }
