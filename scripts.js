@@ -32,7 +32,7 @@ dolarValueText.innerHTML = new Intl.NumberFormat('de-DE',
 }
 
 if (select.value === "Bitcoin"){
-dolarValueText.innerHTML = inputreais / bitcoin
+dolarValueText.innerHTML = (inputreais / bitcoin)/1000
 }
 }
 
